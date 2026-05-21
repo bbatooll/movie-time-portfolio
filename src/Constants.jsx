@@ -1,0 +1,50 @@
+export const REGEX = {
+  password: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/,
+};
+
+export const LANGUAGES = {
+  en: {
+    register: "Register",
+    fullName: "Full Name",
+    email: "Email Address",
+    age: "Age",
+    country: "Country",
+    password: "Password",
+    confirmPassword: "Confirm Password",
+    btn: "Create Account",
+    errors: {
+      fullName: "Full name is too short",
+      email: "Invalid email",
+      passMatch: "Passwords don't match",
+      required: "This field is required",
+    },
+    loginLink: "Already have an account?",
+    login: "Login",
+    loginTitle: "Login",
+    loginBtn: "Login",
+    noAccount: "Don't have an account?",
+    createAccount: "Create an account",
+  },
+  ar: {
+    register: "إنشاء حساب",
+    fullName: "الاسم الكامل",
+    email: "البريد الإلكتروني",
+    age: "العمر",
+    country: "الدولة",
+    password: "كلمة المرور",
+    confirmPassword: "تأكيد كلمة المرور",
+    btn: "إنشاء حساب جديد",
+    errors: {
+      fullName: "الاسم قصير جداً",
+      email: "البريد غير صحيح",
+      passMatch: "كلمات المرور غير متطابقة",
+      required: "هذا الحقل مطلوب",
+    },
+    loginLink: "لديك حساب بالفعل؟",
+    login: "تسجيل الدخول",
+    loginTitle: "تسجيل الدخول",
+    loginBtn: "دخول",
+    noAccount: "ليس لديك حساب؟",
+    createAccount: "إنشاء حساب جديد",
+  },
+};
